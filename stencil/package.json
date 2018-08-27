@@ -11,6 +11,7 @@
   ],
   "scripts": {
     "build": "stencil build",
+    "start": "echo \"️🔥 ERROR: you should run something like 'npm run start-XX'\"",
     "start-01": "stencil build --dev --watch --serve --config ./stencil.config.01.ts",
     "test": "jest",
     "test.watch": "jest --watch"
